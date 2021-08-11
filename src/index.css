@@ -64,6 +64,7 @@ table {
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
@@ -77,4 +78,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
 }
