@@ -24,9 +24,23 @@
 }
 
 .navbar__item {
-  margin: 0 1.6rem;
+  margin-right: 3.2rem;
   color: var(--color-text-dark);
   font-weight: 600;
+}
+
+.navbar__link {
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.navbar__link:hover {
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.navbar__link--active {
+  border-bottom: 2px solid var(--color-primary);
 }
 
 @media only screen and (max-width: 800px) {
