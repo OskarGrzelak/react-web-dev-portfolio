@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Button from '../Button/Button'
 import servicesImage from '../../img/oskar_2.JPG'
-import { services } from './data'
+import { services } from '../../data/data'
 import './Services.css'
 
 const Services = () => {

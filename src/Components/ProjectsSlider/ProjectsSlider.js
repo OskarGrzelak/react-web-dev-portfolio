@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react'
 import Button from '../Button/Button'
 import mockup from '../../img/mockup.png'
 import './ProjectsSlider.css'
-import { slides } from './data'
+import { projects } from '../../data/data'
+
+const slides = projects.filter((project) => project.featured && project.mockup)
 
 const ProjectsSlider = () => {
   const [currentSlide, setCurrentSlide] = useState({})
@@ -33,7 +35,7 @@ const ProjectsSlider = () => {
         </div>
         <div className="slider__image-container">
           <div className="slider__image">
-            <img src={currentSlide.image} alt="" key={currentSlide.id} />
+            <img src={currentSlide.mockup} alt="" key={currentSlide.id} />
           </div>
           <div className="slider__image">
             <img src={mockup} alt="" />

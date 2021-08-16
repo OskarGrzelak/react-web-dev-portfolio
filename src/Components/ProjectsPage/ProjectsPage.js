@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Project from './Project/Project'
 import Footer from '../Footer/Footer'
-import { projects } from './data'
+import { projects } from '../../data/data'
 import './ProjectsPage.css'
 
 const ProjectsPage = () => {
