@@ -48,18 +48,6 @@
   margin-bottom: 3.2rem;
 }
 
-.hero__cta {
-  border: none;
-  border-radius: 30px;
-  background-color: var(--color-primary);
-  font-family: inherit;
-  color: #ffffff;
-  padding: 1em 1.3em;
-  font-size: 1.6rem;
-  cursor: pointer;
-  font-weight: 600;
-}
-
 @media only screen and (max-width: 1000px) {
   .hero {
     padding: 8rem 1.6rem;

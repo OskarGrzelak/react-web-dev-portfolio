@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button'
 import heroImage from '../../img/oskar.jpg'
 import './Hero.css'
 
@@ -19,7 +20,7 @@ const Hero = () => {
           współczesnych czasów miejsca w internecie, które świetnie będzie
           wyglądać na wszystkich urządzeniach, trafiłeś idealnie.
         </p>
-        <button className="hero__cta">Napisz do mnie</button>
+        <Button to="mailto:oskar@oskargrzelak.pl">Napisz do mnie</Button>
       </div>
     </div>
   )

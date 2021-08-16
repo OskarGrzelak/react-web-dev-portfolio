@@ -50,20 +50,6 @@
   margin-left: -10rem;
 }
 
-.project__cta {
-  border: 2px solid var(--color-primary);
-  border-radius: 30px;
-  background-color: #ffffff;
-  color: var(--color-primary);
-  font-family: inherit;
-  font-size: 1.6rem;
-  padding: 1em 1.4em;
-  cursor: pointer;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-}
-
 @media only screen and (max-width: 1000px) {
   .project:not(:last-child) {
     margin-bottom: 8rem;

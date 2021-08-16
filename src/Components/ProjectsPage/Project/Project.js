@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../Button/Button'
 import './Project.css'
 
 const Project = ({ project }) => {
@@ -11,13 +12,17 @@ const Project = ({ project }) => {
         <h2 className="project__heading">{project.name}</h2>
         <ul className="project__tags">
           {project.tags.map((tag) => (
-            <li className="project__tag" key={tag}>{tag}</li>
+            <li className="project__tag" key={tag}>
+              {tag}
+            </li>
           ))}
         </ul>
         <div className="project__description">
           <p>{project.description}</p>
         </div>
-        <a href={project.link} className="project__cta">Odwiedź stronę</a>
+        <Button to={project.link} ghost>
+          Odwiedź stronę
+        </Button>
       </div>
     </li>
   )

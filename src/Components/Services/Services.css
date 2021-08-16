@@ -40,10 +40,10 @@
   line-height: 1.2;
   color: var(--colot-text-light);
   border: 5px solid transparent;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   padding: 1rem;
   cursor: pointer;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .services__item--active {
@@ -75,18 +75,6 @@
 
 .services__paragraph {
   margin-bottom: 2rem;
-}
-
-.services__cta {
-  border: none;
-  border-radius: 30px;
-  background-color: #ffffff;
-  color: var(--color-primary);
-  font-family: inherit;
-  font-size: 1.6rem;
-  padding: 1em 1.4em;
-  cursor: pointer;
-  font-weight: 600;
 }
 
 @media only screen and (max-width: 1000px) {

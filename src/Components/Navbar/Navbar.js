@@ -1,5 +1,7 @@
 import React from 'react'
+import Button from '../Button/Button'
 import logo from '../../img/logo.png'
+import cv from '../../img/CV.pdf'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -12,9 +14,11 @@ const Navbar = () => {
         <li className="navbar__item">Projekty</li>
         <li className="navbar__item">O mnie</li>
       </ul> */}
-      <button className="navbar__cta">Pobierz CV</button>
+      <Button to={cv} ghost>
+        Pobierz CV
+      </Button>
     </nav>
   )
 }
 
-export default Navbar;
+export default Navbar

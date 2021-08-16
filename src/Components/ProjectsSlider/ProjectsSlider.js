@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Button from '../Button/Button'
 import mockup from '../../img/mockup.png'
 import './ProjectsSlider.css'
 import { slides } from './data'
@@ -41,6 +42,9 @@ const ProjectsSlider = () => {
       </div>
       <div className="slider__description" key={currentSlide.id}>
         <p>{currentSlide.description}</p>
+        <Button to={currentSlide.link} ghost>
+          Odwiedź stronę
+        </Button>
       </div>
     </div>
   )

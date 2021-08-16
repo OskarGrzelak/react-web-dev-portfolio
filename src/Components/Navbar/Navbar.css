@@ -29,18 +29,6 @@
   font-weight: 600;
 }
 
-.navbar__cta {
-  margin-left: 1.6rem;
-  border: 2px solid var(--color-primary);
-  border-radius: 30px;
-  background-color: #ffffff;
-  color: var(--color-primary);
-  font-family: inherit;
-  padding: 1em 1.3em;
-  cursor: pointer;
-  font-weight: 600;
-}
-
 @media only screen and (max-width: 800px) {
   .navbar {
     padding: 0 1rem;
@@ -54,10 +42,5 @@
 
   .navbar__logo {
     width: 8rem;
-  }
-
-  .navbar__cta {
-    font-size: 1.4rem;
-    padding: .5em 1em;
   }
 }

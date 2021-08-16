@@ -12,7 +12,9 @@ const ProjectsPage = () => {
       <main className="projects">
         <h1 className="projects__heading">Projekty</h1>
         <ul className="projects__list">
-          {projects.map(project => <Project project={project} key={project.id} />)}
+          {projects.map((project) => (
+            <Project project={project} key={project.id} />
+          ))}
         </ul>
       </main>
       <Footer />

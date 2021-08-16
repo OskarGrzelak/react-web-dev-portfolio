@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Button from '../Button/Button'
 import servicesImage from '../../img/oskar_2.JPG'
 import { services } from './data'
 import './Services.css'
@@ -50,7 +51,9 @@ const Services = () => {
               </p>
             ))
           : ''}
-        <button className="services__cta">{currentService.cta}</button>
+        <Button to="mailto:oskar@oskargrzelak.pl" ghost>
+          {currentService.cta}
+        </Button>
       </div>
     </div>
   )

@@ -72,6 +72,10 @@
   animation: fadeIn 0.3s ease-in-out forwards;
 }
 
+.slider__description > p {
+  margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 1000px) {
   .slider {
     padding: 8rem 1.6rem;

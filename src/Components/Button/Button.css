@@ -1,0 +1,26 @@
+.button {
+  border: 2px solid transparent;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-radius: 30px;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 0.8em 1.3em;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button--ghost {
+  border: 2px solid var(--color-primary);
+  background-color: #ffffff;
+  color: var(--color-primary);
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    font-size: 1.5rem;
+    padding: 0.5em 1em;
+  }
+}
