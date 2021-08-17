@@ -10,12 +10,21 @@
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: var(--color-primary-light);
 }
 
 .button--ghost {
   border: 2px solid var(--color-primary);
   background-color: #ffffff;
   color: var(--color-primary);
+}
+
+.button--ghost:hover {
+  background-color: var(--color-secondary);
 }
 
 @media only screen and (max-width: 600px) {

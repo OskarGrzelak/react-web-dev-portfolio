@@ -23,9 +23,13 @@
   color: var(--colot-text-light);
   border: 5px solid transparent;
   padding: 1rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   cursor: pointer;
-  transition: transform .2s;
+  transition: all 0.3s;
+}
+
+.slider__item:not(.slider__item--active):hover {
+  color: var(--colot-text-dark);
 }
 
 .slider__item--active {

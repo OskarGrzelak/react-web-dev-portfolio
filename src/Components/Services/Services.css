@@ -43,7 +43,11 @@
   margin: 0.5rem 0;
   padding: 1rem;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: all 0.3s;
+}
+
+.services__item:not(.services__item--active):hover {
+  color: var(--colot-text-dark);
 }
 
 .services__item--active {

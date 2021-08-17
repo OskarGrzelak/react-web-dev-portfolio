@@ -48,6 +48,11 @@
   color: var(--color-primary);
   width: 4rem;
   height: auto;
+  transition: all 0.3s;
+}
+
+.footer__social svg:hover {
+  color: var(--color-primary-light);
 }
 
 .footer__copy {
